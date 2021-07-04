@@ -2,7 +2,10 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../style.scss"
+        "../style.scss",
+        "../partials/_colors.scss",
+        "../partials/_mixins.scss",
+        "../partials/_typography.scss"
     ],
     "names": [],
     "file": "style.css"
