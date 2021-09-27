@@ -1,3 +1,31 @@
 @import "./partials/colors";
 @import "./partials/mixins";
 @import "./partials/typography";
+
+// All the Extra Styling
+body {
+  background-color: black;
+  display: grid;
+  place-content: center;
+
+  > div {
+    display: flex;
+    flex-direction: row;
+
+    @media screen and (max-width: 400px) {
+      flex-direction: column;
+    }
+
+    > span {
+      padding: 15px;
+      display: block;
+    }
+  }
+}
+svg {
+  width: 50px;
+  height: auto;
+  path {
+    fill: #84ff74;
+  }
+}
